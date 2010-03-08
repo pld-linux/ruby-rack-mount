@@ -7,7 +7,7 @@ License:	MIT
 Group:		Development/Libraries
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
 # Source0-md5:	6fe33c194d4b63817bd6ab857ff720a7
-URL:		http://rubyforge.org/projects/rack
+URL:		http://github.com/josh/rack-mount
 BuildRequires:	rpmbuild(macros) >= 1.484
 BuildRequires:	ruby >= 1:1.8.6
 BuildRequires:	ruby-modules
