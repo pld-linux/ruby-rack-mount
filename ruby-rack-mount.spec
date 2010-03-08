@@ -17,7 +17,13 @@ Requires:	ruby-rack
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Rack::Mount supports Rack’s Cascade style of trying several routes until it finds one that is not a 404. This allows multiple routes to be nested or stacked on top of each other. Since the application endpoint can trigger the router to continue matching, middleware can be used to add arbitrary conditions to any route. This allows you to route based on other request attributes, session information, or even data dynamically pulled from a database. 
+Rack::Mount supports Rack’s Cascade style of trying several routes
+until it finds one that is not a 404. This allows multiple routes to
+be nested or stacked on top of each other. Since the application
+endpoint can trigger the router to continue matching, middleware can
+be used to add arbitrary conditions to any route. This allows you to
+route based on other request attributes, session information, or even
+data dynamically pulled from a database.
 
 %package rdoc
 Summary:	HTML documentation for %{pkgname}
